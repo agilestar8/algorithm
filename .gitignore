@@ -1,0 +1,10 @@
+
+.vscode
+
+c++ test.cpp
+
+*.exe
+
+*.swp
+
+README.md
