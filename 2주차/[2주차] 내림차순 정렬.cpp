@@ -16,10 +16,6 @@ void simplesort(int s, int e){
         }
     }
 }
- 
-int comp(const void *a, const void *b){
-    return *(int *)b - *(int *)a;
-}
 
 bool bcmp(int a, int b){
     return a > b;
