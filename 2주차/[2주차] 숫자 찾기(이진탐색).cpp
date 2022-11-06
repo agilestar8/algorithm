@@ -28,7 +28,7 @@ int BinarySearch(int start, int end, int d){
         int mid = (start+end)/2;
 
         if (A[mid] == d){ // 찾았으면
-            return mid;   // 리턴
+            return mid;   // idx 리턴
         }
         else if (A[mid] > d){
             end = mid-1;
