@@ -24,7 +24,7 @@ int BFS(){
     int dx[] = {-2, -2, -1, 1, 2, 2, 1, -1};
     int dy[] = {-1, 1, 2, 2, 1, -1, -2, -2};
 
-    memset( visited, 0, sizeof(visited) );
+    memset(visited, 0, sizeof(visited) );
 
     q = {};
     q.push({R-1,C-1});
